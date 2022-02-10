@@ -166,8 +166,8 @@ p {
 
 .features__item {
     width: 100%;
-    max-width: 500px;
-    height: 300px;
+    max-width: 160px;
+    height: 160px;
     padding: 0 40px;
     margin: 25px 0;
     text-align: center;
@@ -438,6 +438,14 @@ p {
 .copyright__text span {
     color: white;
 }
+
+/*Burger
+-------------*/
+.burger {
+
+}
+
+
 
 /*Media
 -------------*/
