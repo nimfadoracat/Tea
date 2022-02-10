@@ -422,3 +422,27 @@ p {
     opacity: 60%;
 }
 
+/*Copyright
+-------------*/
+.copyright {
+    padding: 20px 0;
+    background-color: black;
+}
+.copyright__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #0d2915;
+}
+
+.copyright__text span {
+    color: white;
+}
+
+/*Media
+-------------*/
+@media (max-width: 1200px) {
+    .intro__title {
+        font-size: 40px;
+    }
+}
