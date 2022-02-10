@@ -29,7 +29,8 @@ p {
     max-width: 1080px;
     margin: 0 auto;
     /*padding: 0 15px;*/
-
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -92,7 +93,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image:url("img/Ceylon.jpg");
+    /*background-image:url("img/Ceylon.jpg");*/
     width: 1510px;
     padding-top: 100px;
     background-attachment: fixed;
@@ -210,6 +211,7 @@ p {
     overflow: hidden;
     border-bottom: 1px solid white;
     border-right: 0.01px solid white;
+    flex-wrap: wrap;
 }
 
 .works__item:hover .works__content {
@@ -222,6 +224,7 @@ p {
     left: 50%;
     z-index: 1;
     transform: translate3d(-50%, -50%, 0);
+    flex-wrap: wrap;
 }
  .works__content{
      display: flex;
@@ -337,6 +340,7 @@ p {
 .reviews {
     overflow: hidden;
     background-color: #000000;
+    flex-wrap: wrap;
 }
 
 .reviews__item {
@@ -350,14 +354,16 @@ p {
     position: relative;
     height: 500px;
     justify-content: center;
+    /*flex-wrap: wrap;*/
 }
 
 .reviews__img {
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     right: 1px;
     z-index: 1;
     justify-content: center;
+    /*flex-wrap: wrap;*/
 }
 
 /*DownLoad
