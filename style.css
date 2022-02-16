@@ -93,7 +93,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*background-image:url("img/Ceylon.jpg");*/
+    background-image:url("img/Ceylon.jpg");
     width: 1510px;
     padding-top: 100px;
     background-attachment: fixed;
