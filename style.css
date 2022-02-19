@@ -9,8 +9,9 @@ body {
 
 
 *,
-*: before:,
-*: after: {
+*:before:{
+}
+*:after:{
     box-sizing: border-box;
 }
 
@@ -93,7 +94,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image:url("img/Ceylon.jpg");
+    background-image:url("img/Ceylon.webp");
     width: 1510px;
     padding-top: 100px;
     background-attachment: fixed;
@@ -204,14 +205,15 @@ p {
 }
 
 .works__item {
-    width: 24.9%;
-    max-width: 500px;
+    width: 500px;
+    /*max-width: 500px;*/
     height: 300px;
     position: relative;
     overflow: hidden;
     border-bottom: 1px solid white;
     border-right: 0.01px solid white;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .works__item:hover .works__content {
